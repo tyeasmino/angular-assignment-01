@@ -10,6 +10,9 @@ import { HeaderComponent } from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { TitleOfPageComponent } from './common/title-of-page/title-of-page.component';
 import { CardListComponent } from './common/card-list/card-list.component';
+import { HtmlcssComponent } from './common/htmlcss/htmlcss.component';
+import { JavascriptComponent } from './common/javascript/javascript.component';
+import { AngularComponent } from './common/angular/angular.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { CardListComponent } from './common/card-list/card-list.component';
     HeaderComponent,
     FooterComponent,
     TitleOfPageComponent,
-    CardListComponent
+    CardListComponent,
+    HtmlcssComponent,
+    JavascriptComponent,
+    AngularComponent
   ],
   imports: [
     BrowserModule,
